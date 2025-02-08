@@ -1,8 +1,38 @@
-# React + Vite
+# 🚀 My Portfolio - Sankar Raghuthaman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🎨🚀 This portfolio showcases my **AI/ML expertise**, **Data Engineering skills**, and **projects**.
 
-Currently, two official plugins are available:
+## 🖥 Live Demo  
+🔗 **[View Portfolio](https://your-deployed-link.com/)** (Update after deployment)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📌 About Me  
+I am an **AI/ML enthusiast** passionate about **Machine Learning**, **Data Engineering**, and **Cloud Computing**.  
+I enjoy building **AI-driven applications** and optimizing **big data workflows**.
+
+---
+
+## 📂 Features  
+✅ **Fully Responsive** - Works on all devices  
+✅ **Interactive UI** - Smooth animations and transitions  
+✅ **Projects Showcase** - Highlights my best work  
+✅ **Modern Design** - Clean and minimalistic styling  
+
+---
+
+## 🚀 Technologies Used  
+- **Frontend**: React.js, JavaScript  
+- **Styling**: CSS  
+- **Animations**: Framer Motion  
+- **Backend**: N/A (Static Portfolio)  
+- **Deployment**: Netlify / Vercel  
+
+---
+
+## 🛠 Setup Instructions  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/Sankar16/my-portfolio.git
+cd my-portfolio
