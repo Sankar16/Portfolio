@@ -1,4 +1,8 @@
 html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
 
@@ -8,6 +12,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    width: 100vw;
     overflow-x: hidden;
   }
   
@@ -507,150 +512,146 @@ body {
   }
 
  
-  @media (max-width: 768px) {
+  /* ================= Mobile-Friendly Styles ================= */
+@media (max-width: 768px) {
+  
+    /* ========== NAVBAR ========== */
     nav {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-left {
-        font-size: 1.5rem; /* Adjust the size of your name */
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    
-    .nav-right {
-        display: flex;
-        flex-direction: row; /* Ensure items stay in one row */
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        flex-wrap: wrap; /* Wrap items if necessary */
-    }
-
-    .nav ul {
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .grid {
-        grid-template-columns: 1fr; /* Stack sections in one column */
-        gap: 20px;
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-        padding: 0 15px;
-    }
-
-    .btn {
-        padding: 10px 15px;
-        font-size: 0.9rem;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 15px;
+      text-align: center;
     }
   
-    .edu-card {
-      max-width: 90%;
-    }
-  
-    .nav ul {
+    .nav-container {
       flex-direction: column;
       text-align: center;
     }
-
+  
+    .nav-left h1 {
+      font-size: 1.2rem; 
+      margin-bottom: 5px;
+    }
+  
+    .nav-right {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    .nav-right li {
+      padding: 8px;
+    }
+  
+    /* ========== HERO SECTION ========== */
+    .hero {
+      height: auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero h2 {
+      font-size: 1.3rem;
+    }
+  
+    /* ========== ABOUT SECTION ========== */
     .about-container {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      .about-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
+      flex-direction: column;
+      text-align: center;
     }
-
+  
     .about-image img {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 15px;
+      width: 200px;
+      height: 200px;
     }
-
+  
     .about-text h2 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
-
+  
     .about-text p {
-        font-size: 1rem;
-        padding: 0 15px;
+      font-size: 1rem;
+      padding: 0 15px;
     }
-
+  
+    /* ========== SKILLS SECTION ========== */
     .skills-container {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Adjust grid for mobile */
-        gap: 15px;
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      gap: 12px;
     }
-
-    .skills-title {
-        font-size: 1.8rem;
-    }
-
+  
     .skill-card {
-        padding: 10px;
+      padding: 10px;
     }
-
-      .research-container {
-        flex-direction: column;
-      }
-
-      .skills-title {
-        font-size: 2rem;
-      }
-
-      .footer-icon {
-        font-size: 1.2rem;
-      }
-
-    .experience-card, .education-card {
-        max-width: 90%;
-        padding: 15px;
-        text-align: center;
+  
+    .skill-logo {
+      width: 50px;
+      height: 50px;
     }
-
-    .company-logo, .university-logo {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 10px;
+  
+    /* ========== EXPERIENCE & EDUCATION SECTIONS ========== */
+    .experience-card,
+    .education-card {
+      max-width: 95%;
+      padding: 15px;
+      text-align: center;
     }
-
-    .experience-role, .education-course {
-        font-size: 1.1rem;
-        font-weight: bold;
+  
+    .company-logo,
+    .university-logo {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
     }
-
-    .experience-description, .education-description {
-        font-size: 1rem;
-        padding: 0 10px;
+  
+    .experience-role,
+    .education-course {
+      font-size: 1.2rem;
+      font-weight: bold;
     }
-    
+  
+    .experience-duration,
+    .education-duration {
+      font-size: 1rem;
+    }
+  
+    .experience-description,
+    .education-description {
+      font-size: 0.9rem;
+      padding: 0 12px;
+    }
+  
+    /* ========== PROJECTS SECTION ========== */
+    .projects-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .project-card {
+      max-width: 90%;
+      text-align: center;
+    }
+  
+    /* ========== FOOTER ========== */
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+  
     .footer-icons {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
     }
-
+  
     .footer-icon {
-        font-size: 1rem;
+      font-size: 1.2rem;
     }
-      
   }
 
   .edu-card:hover, .skill-card:hover, .project-card:hover {
@@ -822,4 +823,17 @@ body {
   }
   
 
- 
+ /* Ensure all sections cover the full width & height */
+.section {
+    width: 100vw; /* Full viewport width */
+    min-height: 100vh; /* At least full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
