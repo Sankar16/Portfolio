@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! 🎨🚀 This portfolio showcases my **AI/ML expertise**, **Data Engineering skills**, and **projects**.
 
 ## 🖥 Live Demo  
-🔗 **[View Portfolio](https://sankar-raghuthaman.netlify.app)** (Update after deployment)
+🔗 **[View Portfolio](https://sankar-raghuthaman.netlify.app)**
 
 ---
 
