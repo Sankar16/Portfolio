@@ -47,6 +47,14 @@ export const aboutData = {
       link: "https://github.com/Sankar16/metafit"
     },
     { 
+      name: "PORTFOLIO",
+      link: "https://github.com/Sankar16/Portfolio"
+    },
+    { 
+      name: "STock Market Analysis EDA",
+      link: "https://github.com/Sankar16/Stock_Market_Analysis_EDA"
+    },
+    { 
       name: "NASA Close Approach Analysis",
       link: "https://github.com/Sankar16/nasa-close-approach"
     },
