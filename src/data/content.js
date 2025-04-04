@@ -5,7 +5,7 @@ import ncsulogo from "../assets/images/ncsulogo.jpg";
 
 export const aboutData = {
     heading: "About Me",
-    description: "I am an AI/ML enthusiast passionate about deep learning and data engineering."
+    description: "I am an AI/ML enthusiast passionate about Data Science and Machine Learning."
   };
   
   export const skillsData = [
@@ -30,7 +30,7 @@ export const aboutData = {
       university: "North Carolina State University",
       course: "Master of Computer Science",
       duration: "2024 - 2026",
-      description: "Specializing in Artificial Intelligence, Machine Learning, and Data Engineering."
+      description: "Specializing in Data Science, Machine Learning, and Data Engineering."
     },
     {
       image: raitlogo, // Mumbai University Logo
@@ -43,20 +43,24 @@ export const aboutData = {
 
   export const projectsData = [
     { 
-      name: "METAFIT - AI-driven Fitness Tracker",
-      link: "https://github.com/Sankar16/metafit"
+        name: "Predictive Fault Detection in CNC Milling Machines",
+        link: "https://github.com/Sankar16/Predictive-Fault-Detection-for-CNC-Milling"
     },
     { 
       name: "PORTFOLIO",
       link: "https://github.com/Sankar16/Portfolio"
     },
     { 
-      name: "STock Market Analysis EDA",
+      name: "Stock Market Analysis EDA",
       link: "https://github.com/Sankar16/Stock_Market_Analysis_EDA"
     },
     { 
+      name: "METAFIT - AI-driven Fitness Tracker",
+      link: "https://github.com/Sankar16/calorieApp_server"
+    },
+    { 
       name: "NASA Close Approach Analysis",
-      link: "https://github.com/Sankar16/nasa-close-approach"
+      link: "https://github.com/Sankar16/NASA-Close-Approach-Analysis"
     },
     { 
         name: "Job Analyzer",
@@ -69,11 +73,7 @@ export const aboutData = {
     { 
         name: "COVID Warrior",
         link: "https://github.com/Sankar16/Covid_Yoddha_Portal"
-    },
-    { 
-        name: "My Portfolio",
-        link: "https://github.com/Sankar16/Portfolio"
-    },
+    }
 
   ];
   

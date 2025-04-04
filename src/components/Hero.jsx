@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
-  "Machine Learning",
   "Data Science",
+  "Machine Learning",
   "Data Engineer",
   "Software Engineer"
 ];

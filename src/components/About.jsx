@@ -20,30 +20,29 @@ const About = () => {
 
         {/* Right Side - About Text */}
         <div className="about-text">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm <span className="highlight"> Sankar Raghuthaman</span>, an  
-                <span className="highlight"> AI/ML Enthusiast</span> with a deep interest in   
-                <span className="highlight"> Data Engineering</span> and  
-                <span className="highlight"> Applied Machine Learning</span>.  
-                I am passionate about developing intelligent systems that leverage  
-                <span className="highlight"> Artificial Intelligence</span> to solve  
-                real-world challenges in data-driven industries.
-            </p>
-            <p>
-                My expertise lies in building scalable <span className="highlight"> AI models</span>,  
-                optimizing <span className="highlight"> ETL pipelines</span>, and working with  
-                <span className="highlight"> Big Data Technologies</span>.  
-                Currently, I am expanding my knowledge in <span className="highlight"> Deep Learning</span>,  
-                <span className="highlight"> Cloud Computing</span>, and  
-                <span className="highlight"> MLOps</span> to drive automation and efficiency  
-                in AI workflows.
-            </p>
-            <p>
-                My goal is to bridge the gap between <span className="highlight">Data Science </span>  
-                and <span className="highlight">Software Engineering</span>, creating AI-driven  
-                solutions that are both innovative and production-ready.
-            </p>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm <span className="highlight">Sankar Raghuthaman</span>, an aspiring  
+          <span className="highlight">AI/ML professional</span> with a strong passion for  
+          <span className="highlight">Data Science</span> and  
+          <span className="highlight">Data Engineering</span>.  
+          I’m driven by the mission to build intelligent systems that harness  
+          <span className="highlight">Artificial Intelligence</span> to solve real-world problems across data-centric industries.
+        </p>
+        <p>
+          I specialize in developing scalable <span className="highlight">machine learning models</span>,  
+          designing efficient <span className="highlight">ETL pipelines</span>, and working with  
+          <span className="highlight">big data technologies</span> to extract meaningful insights.  
+          I'm currently deepening my expertise in <span className="highlight">MLOps</span>,  
+          <span className="highlight">automation</span>, and  
+          <span className="highlight">AI infrastructure</span> to streamline and scale data workflows.
+        </p>
+        <p>
+          My long-term goal is to bridge the gap between  
+          <span className="highlight">Data Science</span> and  
+          <span className="highlight">Software Engineering</span>, delivering production-ready,  
+          AI-powered solutions that drive innovation and measurable impact.
+        </p>
           </div>
       </div>
     </motion.section>
