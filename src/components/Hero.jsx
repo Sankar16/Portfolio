@@ -4,8 +4,7 @@ import TextTransition, { presets } from "react-text-transition";
 const TEXTS = [
   "Data Science",
   "Machine Learning",
-  "Data Engineer",
-  "Software Engineer"
+  "Data Engineer"
 ];
 
 const Hero = () => {

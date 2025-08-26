@@ -22,26 +22,19 @@ const About = () => {
         <div className="about-text">
         <h2>About Me</h2>
         <p>
-          Hi, I'm <span className="highlight">Sankar Raghuthaman</span>, an aspiring  
-          <span className="highlight">AI/ML professional</span> with a strong passion for  
-          <span className="highlight">Data Science</span> and   
-          <span className="highlight"> Data Engineering</span>.  
-          I’m driven by the mission to build intelligent systems that harness  
-          <span className="highlight"> Artificial Intelligence</span> to solve real-world problems across data-centric industries.
-        </p>
-        <p>
-          I specialize in developing scalable <span className="highlight">machine learning models</span>,  
-          designing efficient <span className="highlight">ETL pipelines</span>, and working with  
-          <span className="highlight">big data technologies</span> to extract meaningful insights.  
-          I'm currently deepening my expertise in <span className="highlight">MLOps</span>,  
-          <span className="highlight"> automation</span>, and  
-          <span className="highlight"> AI infrastructure</span> to streamline and scale data workflows.
-        </p>
-        <p>
-          My long-term goal is to bridge the gap between  
-          <span className="highlight"> Data Science</span> and  
-          <span className="highlight"> Software Engineering</span>, delivering production-ready,  
-          AI-powered solutions that drive innovation and measurable impact.
+          I’m an <span class="highlight">AI/ML enthusiast</span> with a deep passion for 
+          <span class="highlight">Data Science</span>, <span class="highlight">Data Engineering</span>, 
+          and <span class="highlight">Machine Learning</span>. I specialize in developing scalable 
+          <span class="highlight">machine learning models</span>, designing robust 
+          <span class="highlight">ETL pipelines</span>, and working with 
+          <span class="highlight">big data technologies</span> to drive impactful solutions. 
+          My experience lies in building intelligent systems that utilize 
+          <span class="highlight">Artificial Intelligence</span> to solve real-world, data-driven problems. 
+          Currently, I’m expanding my expertise in <span class="highlight">MLOps</span>, 
+          <span class="highlight">automation</span>, and <span class="highlight">AI infrastructure</span> 
+          to streamline and scale data workflows effectively. With a strong foundation in 
+          <span class="highlight">Data Science</span> and <span class="highlight">Software Engineering</span>, 
+          I am focused on delivering production-ready solutions that create measurable impact and drive innovation across industries.
         </p>
           </div>
       </div>
