@@ -106,17 +106,16 @@ export const experienceData = [
 ];
   
 export const researchData = [
-  {
+    {
     title: "LLM's to Evaluate and Improve Comments", 
     publisher: "Independent Study Project", 
     date: "Ongoing", 
     description: "Researching the application of Large Language Models (LLMs) to enhance code commenting for better clarity and insight.",
-  }  
-  {
+    },  
+    {
       title: "Classification of Disease using CBC",
       publisher: "Springer Artificial Intelligence and Soft Computing series",
       date: "Jan 2020 – May 2020",
       link: "https://link.springer.com/chapter/10.1007/978-981-16-1249-7_12"
-    },
-    
+    } 
 ];
