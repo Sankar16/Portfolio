@@ -2,6 +2,7 @@ import tcslogo from "../assets/images/tcslogo.png";
 import eduvancelogo from "../assets/images/eduvancelogo.png";
 import raitlogo from "../assets/images/raitlogo.jpg";
 import ncsulogo from "../assets/images/ncsulogo.jpg";
+import choplogo from "../assets/images/choplogo.jpg";
 
 export const aboutData = {
     heading: "About Me",
@@ -82,7 +83,7 @@ export const projectsData = [
   
 export const experienceData = [
     {
-      image: tcslogo,
+      image: choplogo,
       company: "Children's Hospital of Philadelphia",
       role: "Data Science Intern",
       duration: "July 2025 – Present",
