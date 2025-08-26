@@ -46,7 +46,7 @@ export const projectsData = [
     {
     name: "Research Paper Summarizer", 
     link: "https://github.com/Sankar16/research_paper_summarizer"
-    } 
+    },
     { 
         name: "Predictive Fault Detection in CNC Milling Machines",
         link: "https://github.com/Sankar16/Predictive-Fault-Detection-for-CNC-Milling"
