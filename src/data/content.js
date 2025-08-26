@@ -2,7 +2,7 @@ import tcslogo from "../assets/images/tcslogo.png";
 import eduvancelogo from "../assets/images/eduvancelogo.png";
 import raitlogo from "../assets/images/raitlogo.jpg";
 import ncsulogo from "../assets/images/ncsulogo.jpg";
-import choplogo from "../assets/images/choplogo.jpg";
+import choplogo from "../assets/images/choplogo.jpeg";
 
 export const aboutData = {
     heading: "About Me",
