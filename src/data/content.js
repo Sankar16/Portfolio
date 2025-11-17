@@ -36,13 +36,13 @@ export const skillsData = [
 
   // NLP / LLM
   { name: "Hugging Face", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
-  { name: "LangChain", logo: "https://upload.wikimedia.org/wikipedia/commons/0/0e/LangChain_Logo.svg" },
+  { name: "LangChain", logo: "https://raw.githubusercontent.com/sugarforever/langchain-icons/main/langchain-icon.png" },
 
   // Cloud & Data Engineering
   { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
   { name: "AWS", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
   { name: "Apache Spark", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
-  { name: "Databricks", logo: "https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.svg" },
+  { name: "Databricks", logo: "https://cdn.worldvectorlogo.com/logos/databricks-1.svg" },
 
   // DevOps & Tools
   { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
