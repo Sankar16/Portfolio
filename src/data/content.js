@@ -8,7 +8,7 @@ export const aboutData = {
     heading: "About Me",
     description: "I am an AI/ML enthusiast passionate about Data Science, Machine Learning, and Data Engineering. I strive to develop intelligent systems that leverage AI to solve real-world challenges and create innovative solutions."
 };
-  
+ /* 
 export const skillsData = [
     { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "R", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" },
@@ -24,7 +24,37 @@ export const skillsData = [
     { name: "Kubernetes", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
     { name: "Apache Spark", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" }
 ];
-  
+ */
+
+export const skillsData = [
+  { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+  { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+  { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" },
+  { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+  { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+
+  // NLP / LLM
+  { name: "Hugging Face", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+  { name: "LangChain", logo: "https://raw.githubusercontent.com/hwchase17/langchain/master/docs/static/img/favicon.ico" },
+
+  // Cloud & Data Engineering
+  { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+  { name: "AWS", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
+  { name: "Apache Spark", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
+  { name: "Databricks", logo: "https://seeklogo.com/images/D/databricks-logo-0D1E4F8D05-seeklogo.com.png" },
+
+  // DevOps & Tools
+  { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+  { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "CI/CD", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+
+  // Visualization
+  { name: "Power BI", logo: "https://github.com/microsoft/PowerBI-Icons/blob/main/PNG/Power-BI.png?raw=true" },
+  { name: "Tableau", logo: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg" }
+];
+
 export const educationData = [
     {
       image: ncsulogo,
