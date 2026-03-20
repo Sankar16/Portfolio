@@ -67,19 +67,21 @@ const experience = [
     role: 'Graduate Research Intern',
     duration: 'Aug 2025 – Present',
     description:
-      'Worked on LLM-driven code comment generation and evaluation workflows focused on improving comment quality and developer usefulness.',
+      'Built retrieval-augmented LLM systems for code comment generation, data curation, and intent-aware prompting over large real-world code corpora.',
     bullets: [
-      'Designed a system for generating new comments and improving weak existing comments using structured prompts and evaluation logic.',
-      'Built an automated evaluation pipeline with custom metrics to assess usefulness, clarity, and intent alignment.',
-      'Used research-style evaluation design to translate model outputs into a measurable developer productivity story.',
+      'Built a retrieval-augmented code comment generation system over ~8K real-world Ruby methods using embedding-based semantic search and LLM prompting, achieving ~60–75% improvement in preferred outputs over baseline through controlled evaluation on 90 annotated samples.',
+      'Designed an LLM-driven data curation and filtering pipeline to identify high-quality training examples, reducing incorrect or misleading generations by ~40–60% and producing a refined dataset of ~6.3K samples with strong alignment to human judgments.',
+      'Developed and evaluated an intent-aware retrieval and prompting framework (what, how-to-use, why, etc.), showing that intent conditioning improves structural clarity and completeness in ~30–50% of complex generation tasks, especially for explanatory and usage-oriented comments.',
     ],
     tools: [
       'Python',
       'LLMs',
-      'NLP',
+      'Retrieval-Augmented Generation',
+      'Embeddings',
+      'Semantic Search',
       'Evaluation',
-      'Tree-sitter',
       'Prompt Engineering',
+      'Ruby',
     ],
   },
 ];
