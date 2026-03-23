@@ -33,7 +33,7 @@ export default function AboutSection() {
               </p>
               <p>
                 I’m especially interested in problems where strong modeling, thoughtful
-                experimentation, and real-world implementation all matter — whether in applied AI,
+                experimentation, and real-world implementation all matter, whether in applied AI,
                 analytics, experimentation tooling, or ML platform workflows.
               </p>
 

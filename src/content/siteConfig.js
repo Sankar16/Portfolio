@@ -3,7 +3,7 @@ const siteConfig = {
   title: 'Data Scientist / AI-ML Engineer',
   headline: 'Data Scientist / AI-ML Engineer building production-minded machine learning systems.',
   subheadline:
-    'I work across machine learning, LLM applications, evaluation, experimentation, and scalable data workflows — with experience in both research and production environments.',
+    'I work across machine learning, LLM applications, evaluation, experimentation, and scalable data workflows, with experience in both research and production environments.',
   email: 'sankarrag@gmail.com',
   githubUrl: 'https://github.com/Sankar16',
   linkedinUrl: 'https://www.linkedin.com/in/sankar-raghuthaman/',
