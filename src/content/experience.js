@@ -44,7 +44,7 @@ const experience = [
   {
     company: "Children's Hospital of Philadelphia",
     role: 'Data Science Intern',
-    duration: 'Jul 2025 – Present',
+    duration: 'Jul 2025 – Dec 2025',
     description:
       'Developed a rigorous genomic ML workflow for pediatric disease classification using high-dimensional DNA methylation data.',
     bullets: [
