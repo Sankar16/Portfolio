@@ -2,10 +2,10 @@ const about = {
   imageUrl: '',
   imageAlt: 'Sankar Raghuthaman portrait',
   paragraphs: [
-    'I’m a Data Scientist / AI-ML Engineer focused on building practical machine learning systems that are both rigorous and usable. My work spans model development, evaluation, LLM-powered workflows, and scalable data pipelines across research and production environments.',
-    'I’m especially interested in problems where strong modeling, thoughtful experimentation, and real-world implementation all matter — whether in applied AI, analytics, developer tooling, or ML platform workflows.',
+    'I am an AI/ML Engineer focused on building production-ready machine learning systems where evaluation rigor matters as much as model design. My work spans LLM-powered pipelines, RAG systems, multi-agent orchestration, and ML lifecycle automation across research and enterprise environments.',
+    'I am especially drawn to problems at the intersection of research and production — where strong modeling, careful evaluation, and real-world reliability all have to coexist. That thread runs through my work in code documentation generation, clinical genomics, enterprise document intelligence, and large-scale MLOps.',
   ],
-  highlights: ['Machine Learning', 'LLM Workflows', 'Experimentation', 'Data Pipelines'],
+  highlights: ['LLM Systems', 'RAG', 'Multi-Agent Orchestration', 'MLOps', 'ML Evaluation'],
 };
 
 export default about;

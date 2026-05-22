@@ -2,7 +2,7 @@ const education = [
   {
     school: 'North Carolina State University',
     degree: 'Master of Computer Science',
-    duration: 'Aug 2024 – Present',
+    duration: 'Aug 2024 – May 2026',
   },
   {
     school: 'Mumbai University',

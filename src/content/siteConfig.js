@@ -1,25 +1,25 @@
 const siteConfig = {
   name: 'Sankar Raghuthaman',
-  title: 'Data Scientist / AI-ML Engineer',
-  headline: 'Data Scientist / AI-ML Engineer building production-minded machine learning systems.',
+  title: 'AI/ML Engineer',
+  headline: 'AI/ML Engineer building production-ready machine learning systems.',
   subheadline:
-    'I work across machine learning, LLM applications, evaluation, experimentation, and scalable data workflows, with experience in both research and production environments.',
+    'I work across LLM applications, RAG systems, multi-agent orchestration, ML evaluation, and scalable data pipelines, with experience spanning research and production environments.',
   email: 'sankarrag@gmail.com',
   githubUrl: 'https://github.com/Sankar16',
   linkedinUrl: 'https://www.linkedin.com/in/sankar-raghuthaman/',
-  resumeUrl: '/resume/Sankar_Raghuthaman_Resume_DS.docx',
+  resumeUrl: '/resume/Sankar_Raghuthaman_Resume.docx',
   heroTags: [
-    'Data Science',
+    'LLM Systems',
+    'RAG',
+    'Multi-Agent Orchestration',
     'Machine Learning',
-    'LLM Applications',
-    'Experimentation',
-    'Data Pipelines',
     'MLOps',
-    'Data Engineering'
+    'Data Pipelines',
+    'ML Evaluation',
   ],
   contactTitle: "Let's Connect",
   contactText:
-    "I'm currently exploring Data Scientist and AI/ML Engineer opportunities. If you'd like to connect, feel free to reach out by email or through LinkedIn.",
+    "I'm currently exploring AI/ML Engineer and Applied Scientist opportunities. If you'd like to connect, feel free to reach out by email or through LinkedIn.",
 };
 
 export default siteConfig;
