@@ -92,6 +92,51 @@ const projects = [
     ],
   },
   {
+    slug: 'candidate-recommendation-system',
+    title: 'Candidate Recommendation System',
+    featured: true,
+    category: 'AI / NLP / Retrieval',
+    summary:
+      'Resume-to-job matching system using LLM-based structured field extraction, section-level embeddings, and weighted scoring to rank candidates with LLM-generated explanations.',
+    whyItMatters:
+      'Full-text resume matching is inconsistent due to format variation. Section-level structured comparison gives more stable, explainable ranking.',
+    stack: [
+      'Python',
+      'Streamlit',
+      'LLaMA 3.1 8B',
+      'Hugging Face API',
+      'Sentence Transformers',
+      'FAISS',
+      'pdfplumber',
+      'python-docx',
+    ],
+    githubUrl: 'https://github.com/Sankar16/Job-Candidate-Recommendation-System/tree/main',
+    demoUrl: 'https://drive.google.com/file/d/1LR1LYkmmYKAvBK8xwwRoID7J77LIfBof/view?usp=sharing',
+    overview:
+      'Resume-to-JD matching platform using LLaMA 3.1 8B for structured field extraction, SentenceTransformers for section-level embeddings (8 dimensions), and FAISS for similarity indexing; configurable weighted scoring ranks top-5 candidates with LLM-generated explanations.',
+    problem:
+      'Full-text matching across resumes and job descriptions is inconsistent because resume formats vary heavily. Structured field-based comparison at the section level provides more stable and explainable ranking.',
+    built: [
+      'Multi-format resume ingestion for PDF, DOCX, DOC, and TXT.',
+      'LLM-based structured field extraction from both resumes and job descriptions into a shared schema.',
+      'Section-level embeddings across 8 dimensions (skills, experience, education, projects, etc.) with FAISS indexing.',
+      'Configurable weighted scoring per role type and LLM-generated match explanation for top candidates.',
+    ],
+    approach: [
+      'Section-level matching instead of document-level to surface per-dimension signal.',
+      'Same JSON schema for both JD and resume enables direct section-to-section comparison.',
+      'Weights configurable per role type — different profiles for IC vs management roles.',
+    ],
+    outcomes: [
+      'Recruiter-facing recommendation workflow with explainable per-dimension ranking.',
+      'Section-level approach more robust than naive full-text matching across format variation.',
+    ],
+    learnings: [
+      'Granular section-level matching surfaces gaps full-text scoring hides.',
+      'LLM-generated explanations make ranking decisions actionable, not just numerical.',
+    ],
+  },
+    {
     slug: 'causallab',
     title: 'CausalLab',
     featured: true,
@@ -137,51 +182,6 @@ const projects = [
     learnings: [
       'Trust-aware analysis is often more useful than raw significance alone.',
       'Good experimentation tooling needs both statistical rigor and user-friendly reporting.',
-    ],
-  },
-  {
-    slug: 'candidate-recommendation-system',
-    title: 'Candidate Recommendation System',
-    featured: true,
-    category: 'AI / NLP / Retrieval',
-    summary:
-      'Resume-to-job matching system using LLM-based structured field extraction, section-level embeddings, and weighted scoring to rank candidates with LLM-generated explanations.',
-    whyItMatters:
-      'Full-text resume matching is inconsistent due to format variation. Section-level structured comparison gives more stable, explainable ranking.',
-    stack: [
-      'Python',
-      'Streamlit',
-      'LLaMA 3.1 8B',
-      'Hugging Face API',
-      'Sentence Transformers',
-      'FAISS',
-      'pdfplumber',
-      'python-docx',
-    ],
-    githubUrl: 'https://github.com/Sankar16/Job-Candidate-Recommendation-System/tree/main',
-    demoUrl: 'https://drive.google.com/file/d/1LR1LYkmmYKAvBK8xwwRoID7J77LIfBof/view?usp=sharing',
-    overview:
-      'Resume-to-JD matching platform using LLaMA 3.1 8B for structured field extraction, SentenceTransformers for section-level embeddings (8 dimensions), and FAISS for similarity indexing; configurable weighted scoring ranks top-5 candidates with LLM-generated explanations.',
-    problem:
-      'Full-text matching across resumes and job descriptions is inconsistent because resume formats vary heavily. Structured field-based comparison at the section level provides more stable and explainable ranking.',
-    built: [
-      'Multi-format resume ingestion for PDF, DOCX, DOC, and TXT.',
-      'LLM-based structured field extraction from both resumes and job descriptions into a shared schema.',
-      'Section-level embeddings across 8 dimensions (skills, experience, education, projects, etc.) with FAISS indexing.',
-      'Configurable weighted scoring per role type and LLM-generated match explanation for top candidates.',
-    ],
-    approach: [
-      'Section-level matching instead of document-level to surface per-dimension signal.',
-      'Same JSON schema for both JD and resume enables direct section-to-section comparison.',
-      'Weights configurable per role type — different profiles for IC vs management roles.',
-    ],
-    outcomes: [
-      'Recruiter-facing recommendation workflow with explainable per-dimension ranking.',
-      'Section-level approach more robust than naive full-text matching across format variation.',
-    ],
-    learnings: [
-      'Granular section-level matching surfaces gaps full-text scoring hides.',
-      'LLM-generated explanations make ranking decisions actionable, not just numerical.',
     ],
   },
   {
