@@ -7,7 +7,7 @@ const siteConfig = {
   email: 'sankarrag@gmail.com',
   githubUrl: 'https://github.com/Sankar16',
   linkedinUrl: 'https://www.linkedin.com/in/sankar-raghuthaman/',
-  resumeUrl: '/resume/Resume_Sankar.pdf',
+  resumeUrl: '/resume/Resume_Sankar_Raghuthaman.pdf',
   heroTags: [
     'LLM Systems',
     'RAG',
